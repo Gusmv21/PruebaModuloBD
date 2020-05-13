@@ -1,0 +1,715 @@
+-- INGRESO ALUMNOS DE LOS 4 CURSOS.
+--ALUMNOS CURSO 1
+
+insert into alumno
+values (1,'Jose Perez','1-1',1);
+
+insert into alumno
+values (2,'Juan Perez','1-2',1);
+
+insert into alumno
+values (3,'Jose Gutierrez','1-3',1);
+
+insert into alumno
+values (4,'Marcela Palma','1-4',1);
+
+insert into alumno
+values (5,'Filomena Pardo','1-5',1);
+
+insert into alumno
+values (6,'Gustavo Perez','1-6',1);
+
+insert into alumno
+values (7,'Juana de Arco','1-7',1);
+
+insert into alumno
+values (8,'Myriam Vazques','1-8',1);
+
+insert into alumno
+values (9,'Aquiles Enseño','1-9',1);
+
+insert into alumno
+values (10,'Erick Pulgar','1-10',1);
+
+--ALUMNOS CURSO 2
+
+insert into alumno
+values (11,'Felipe Morales','1-11',2);
+
+insert into alumno
+values (12,'Manuel Perez','1-12',2);
+
+insert into alumno
+values (13,'Alejandra Gutierrez','1-13',2);
+
+insert into alumno
+values (14,'María Palma','1-14',2);
+
+insert into alumno
+values (15,'Florencia Pardo','1-15',2);
+
+insert into alumno
+values (16,'Martín Perez','1-16',2);
+
+insert into alumno
+values (17,'Fernando Puebla','1-17',2);
+
+insert into alumno
+values (18,'Tomás Vazques','1-18',2);
+
+insert into alumno
+values (19,'Piero Enseño','1-19',2);
+
+insert into alumno
+values (20,'Eduardo Pulgar','1-20',2);
+
+--ALUMNOS CURSO 3
+
+insert into alumno
+values (21,'Felipe Mendez','1-21',3);
+
+insert into alumno
+values (22,'Manuel Parra','1-22',3);
+
+insert into alumno
+values (23,'Alejandra Mena','1-23',3);
+
+--ALUMNOS CURSO 4 
+
+insert into alumno
+values (24,'Felipe Mendez','1-24',4);
+
+insert into alumno
+values (25,'Manuel Parra','1-25',4);
+
+insert into alumno
+values (26,'Alejandra Mena','1-26',4);
+
+
+
+
+--SCRIPT EVALUACIONES, INGRESO RESPUESTAS ALUMNOS TEST 1.
+
+--RESPUESTA DE TEST 1 ALUMNO 2 //ALUMNO //ALUMNO//ALUMNO//ALUMNO//ALUMNO //ALUMNO//ALUMNO//ALUMNO//ALUMNO //ALUMNO//ALUMNO//ALUMNO
+
+insert into respuesta
+values (22,41,2,1);
+
+insert into respuesta
+values (23,2,2,1);
+
+insert into respuesta
+values (24,4,2,2);
+
+insert into respuesta
+values (25,3,2,2);
+
+insert into respuesta
+values (26,25,2,3);
+
+insert into respuesta
+values (27,26,2,3);
+
+insert into respuesta
+values (28,27,2,4);
+
+insert into respuesta
+values (29,28,2,4);
+
+insert into respuesta
+values (30,0,2,5);
+
+insert into respuesta
+values (31,0,2,5);
+
+insert into respuesta
+values (32,0,2,6);
+
+insert into respuesta
+values (33,31,2,6);
+
+insert into respuesta
+values (34,0,2,6);
+
+insert into respuesta
+values (35,13,2,7);
+
+insert into respuesta
+values (36,33,2,7);
+
+insert into respuesta
+values (37,35,2,8);
+
+insert into respuesta
+values (38,36,2,8);
+
+insert into respuesta
+values (39,17,2,9);
+
+insert into respuesta
+values (40,18,2,9);
+
+insert into respuesta
+values (41,39,2,10);
+
+insert into respuesta
+values (42,20,2,10);
+
+--RESPUESTA DE TEST 1 ALUMNO 3 //ALUMNO //ALUMNO//ALUMNO//ALUMNO//ALUMNO //ALUMNO//ALUMNO//ALUMNO//ALUMNO //ALUMNO//ALUMNO//ALUMNO
+
+insert into respuesta
+values (43,41,3,1);
+
+insert into respuesta
+values (44,2,3,1);
+
+insert into respuesta
+values (45,4,3,2);
+
+insert into respuesta
+values (46,23,3,2);
+
+insert into respuesta
+values (47,5,3,3);
+
+insert into respuesta
+values (48,6,3,3);
+
+insert into respuesta
+values (49,27,3,4);
+
+insert into respuesta
+values (50,28,3,4);
+
+insert into respuesta
+values (51,0,3,5);
+
+insert into respuesta
+values (52,10,3,5);
+
+insert into respuesta
+values (53,0,3,6);
+
+insert into respuesta
+values (54,0,3,6);
+
+insert into respuesta
+values (55,0,3,6);
+
+insert into respuesta
+values (56,13,3,7);
+
+insert into respuesta
+values (57,33,3,7);
+
+insert into respuesta
+values (58,15,3,8);
+
+insert into respuesta
+values (59,16,3,8);
+
+insert into respuesta
+values (60,18,3,9);
+
+insert into respuesta
+values (61,17,3,9);
+
+insert into respuesta
+values (62,19,3,10);
+
+insert into respuesta
+values (63,20,3,10);
+
+--RESPUESTA DE TEST 1 ALUMNO 4 //ALUMNO //ALUMNO//ALUMNO//ALUMNO//ALUMNO //ALUMNO//ALUMNO//ALUMNO//ALUMNO //ALUMNO//ALUMNO//ALUMNO
+
+insert into respuesta
+values (64,41,4,1);
+
+insert into respuesta
+values (65,2,4,1);
+
+insert into respuesta
+values (66,4,4,2);
+
+insert into respuesta
+values (67,23,4,2);
+
+insert into respuesta
+values (68,5,4,3);
+
+insert into respuesta
+values (69,6,4,3);
+
+insert into respuesta
+values (70,27,4,4);
+
+insert into respuesta
+values (71,28,4,4);
+
+insert into respuesta
+values (72,9,4,5);
+
+insert into respuesta
+values (73,10,4,5);
+
+insert into respuesta
+values (74,0,4,6);
+
+insert into respuesta
+values (75,0,4,6);
+
+insert into respuesta
+values (76,0,4,6);
+
+insert into respuesta
+values (77,13,4,7);
+
+insert into respuesta
+values (78,33,4,7);
+
+insert into respuesta
+values (79,15,4,8);
+
+insert into respuesta
+values (80,16,4,8);
+
+insert into respuesta
+values (81,0,4,9);
+
+insert into respuesta
+values (82,0,4,9);
+
+insert into respuesta
+values (83,0,4,10);
+
+insert into respuesta
+values (84,0,4,10);
+
+--RESPUESTA DE TEST 1 ALUMNO 5 //ALUMNO //ALUMNO//ALUMNO//ALUMNO//ALUMNO //ALUMNO//ALUMNO//ALUMNO//ALUMNO //ALUMNO//ALUMNO//ALUMNO
+
+insert into respuesta
+values (85,41,5,1);
+
+insert into respuesta
+values (86,2,5,1);
+
+insert into respuesta
+values (87,4,5,2);
+
+insert into respuesta
+values (88,3,5,2);
+
+insert into respuesta
+values (89,5,5,3);
+
+insert into respuesta
+values (90,6,5,3);
+
+insert into respuesta
+values (91,7,5,4);
+
+insert into respuesta
+values (92,8,5,4);
+
+insert into respuesta
+values (93,9,5,5);
+
+insert into respuesta
+values (94,10,5,5);
+
+insert into respuesta
+values (95,11,5,6);
+
+insert into respuesta
+values (96,12,5,6);
+
+insert into respuesta
+values (97,31,5,6);
+
+insert into respuesta
+values (98,13,5,7);
+
+insert into respuesta
+values (99,14,5,7);
+
+insert into respuesta
+values (100,15,5,8);
+
+insert into respuesta
+values (101,16,5,8);
+
+insert into respuesta
+values (102,17,5,9);
+
+insert into respuesta
+values (103,18,5,9);
+
+insert into respuesta
+values (104,19,5,10);
+
+insert into respuesta
+values (105,20,5,10);
+
+--RESPUESTA DE TEST 1 ALUMNO 6
+
+insert into respuesta
+values (106,41,6,1);
+
+insert into respuesta
+values (107,2,6,1);
+
+insert into respuesta
+values (108,4,6,2);
+
+insert into respuesta
+values (109,23,6,2);
+
+insert into respuesta
+values (110,5,6,3);
+
+insert into respuesta
+values (111,6,6,3);
+
+insert into respuesta
+values (112,27,6,4);
+
+insert into respuesta
+values (113,28,6,4);
+
+insert into respuesta
+values (114,9,6,5);
+
+insert into respuesta
+values (115,10,6,5);
+
+insert into respuesta
+values (116,0,6,6);
+
+insert into respuesta
+values (117,0,6,6);
+
+insert into respuesta
+values (118,0,6,6);
+
+insert into respuesta
+values (119,13,6,7);
+
+insert into respuesta
+values (120,33,6,7);
+
+insert into respuesta
+values (121,15,6,8);
+
+insert into respuesta
+values (122,16,6,8);
+
+insert into respuesta
+values (123,0,6,9);
+
+insert into respuesta
+values (124,0,6,9);
+
+insert into respuesta
+values (125,0,6,10);
+
+insert into respuesta
+values (126,0,6,10);
+
+--RESPUESTA DE TEST 1 ALUMNO 7 //ALUMNO //ALUMNO//ALUMNO//ALUMNO//ALUMNO //ALUMNO//ALUMNO//ALUMNO//ALUMNO //ALUMNO//ALUMNO//ALUMNO
+
+insert into respuesta
+values (127,41,7,1);
+
+insert into respuesta
+values (128,2,7,1);
+
+insert into respuesta
+values (129,4,7,2);
+
+insert into respuesta
+values (130,3,7,2);
+
+insert into respuesta
+values (131,25,7,3);
+
+insert into respuesta
+values (132,26,7,3);
+
+insert into respuesta
+values (133,27,7,4);
+
+insert into respuesta
+values (134,28,7,4);
+
+insert into respuesta
+values (135,0,7,5);
+
+insert into respuesta
+values (136,0,7,5);
+
+insert into respuesta
+values (137,0,7,6);
+
+insert into respuesta
+values (138,31,7,6);
+
+insert into respuesta
+values (139,0,7,6);
+
+insert into respuesta
+values (140,13,7,7);
+
+insert into respuesta
+values (141,33,7,7);
+
+insert into respuesta
+values (142,35,7,8);
+
+insert into respuesta
+values (143,36,7,8);
+
+insert into respuesta
+values (144,17,7,9);
+
+insert into respuesta
+values (145,18,7,9);
+
+insert into respuesta
+values (146,39,7,10);
+
+insert into respuesta
+values (147,20,7,10);
+
+--RESPUESTA DE TEST 1 ALUMNO 8 //ALUMNO //ALUMNO//ALUMNO//ALUMNO//ALUMNO //ALUMNO//ALUMNO//ALUMNO//ALUMNO //ALUMNO//ALUMNO//ALUMNO
+
+insert into respuesta
+values (148,41,8,1);
+
+insert into respuesta
+values (149,2,8,1);
+
+insert into respuesta
+values (150,4,8,2);
+
+insert into respuesta
+values (151,23,8,2);
+
+insert into respuesta
+values (152,5,8,3);
+
+insert into respuesta
+values (153,6,8,3);
+
+insert into respuesta
+values (154,27,8,4);
+
+insert into respuesta
+values (155,28,8,4);
+
+insert into respuesta
+values (156,0,8,5);
+
+insert into respuesta
+values (157,10,8,5);
+
+insert into respuesta
+values (158,0,8,6);
+
+insert into respuesta
+values (159,0,8,6);
+
+insert into respuesta
+values (160,0,8,6);
+
+insert into respuesta
+values (161,13,8,7);
+
+insert into respuesta
+values (162,33,8,7);
+
+insert into respuesta
+values (163,15,8,8);
+
+insert into respuesta
+values (164,16,8,8);
+
+insert into respuesta
+values (165,18,8,9);
+
+insert into respuesta
+values (166,17,8,9);
+
+insert into respuesta
+values (167,19,8,10);
+
+insert into respuesta
+values (168,20,8,10);
+
+--RESPUESTA DE TEST 1 ALUMNO 9 //ALUMNO //ALUMNO//ALUMNO//ALUMNO//ALUMNO //ALUMNO//ALUMNO//ALUMNO//ALUMNO //ALUMNO//ALUMNO//ALUMNO
+
+insert into respuesta
+values (169,41,9,1);
+
+insert into respuesta
+values (170,2,9,1);
+
+insert into respuesta
+values (171,4,9,2);
+
+insert into respuesta
+values (172,23,9,2);
+
+insert into respuesta
+values (173,5,9,3);
+
+insert into respuesta
+values (174,6,9,3);
+
+insert into respuesta
+values (175,27,9,4);
+
+insert into respuesta
+values (176,28,9,4);
+
+insert into respuesta
+values (177,9,9,5);
+
+insert into respuesta
+values (178,10,9,5);
+
+insert into respuesta
+values (179,0,9,6);
+
+insert into respuesta
+values (180,0,9,6);
+
+insert into respuesta
+values (181,0,9,6);
+
+insert into respuesta
+values (182,13,9,7);
+
+insert into respuesta
+values (183,33,9,7);
+
+insert into respuesta
+values (184,15,9,8);
+
+insert into respuesta
+values (185,16,9,8);
+
+insert into respuesta
+values (186,0,9,9);
+
+insert into respuesta
+values (187,0,9,9);
+
+insert into respuesta
+values (188,0,9,10);
+
+insert into respuesta
+values (189,0,9,10);
+
+--RESPUESTA DE TEST 1 ALUMNO 10 //ALUMNO //ALUMNO//ALUMNO//ALUMNO//ALUMNO //ALUMNO//ALUMNO//ALUMNO//ALUMNO //ALUMNO//ALUMNO//ALUMNO
+
+insert into respuesta
+values (190,41,10,1);
+
+insert into respuesta
+values (191,2,10,1);
+
+insert into respuesta
+values (192,4,10,2);
+
+insert into respuesta
+values (193,3,10,2);
+
+insert into respuesta
+values (194,5,10,3);
+
+insert into respuesta
+values (195,6,10,3);
+
+insert into respuesta
+values (196,7,10,4);
+
+insert into respuesta
+values (197,8,10,4);
+
+insert into respuesta
+values (198,9,10,5);
+
+insert into respuesta
+values (199,10,10,5);
+
+insert into respuesta
+values (200,11,10,6);
+
+insert into respuesta
+values (201,12,10,6);
+
+insert into respuesta
+values (202,31,10,6);
+
+insert into respuesta
+values (203,13,10,7);
+
+insert into respuesta
+values (204,14,10,7);
+
+insert into respuesta
+values (205,15,10,8);
+
+insert into respuesta
+values (206,16,10,8);
+
+insert into respuesta
+values (207,0,10,9);
+
+insert into respuesta
+values (208,0,10,9);
+
+insert into respuesta
+values (209,19,10,10);
+
+insert into respuesta
+values (210,20,10,10);
+
+
+-- LLENADO DE TABLA TEST REQUERIDOS
+
+insert into test
+values (1,'Evaluación Modulo JAVA','Evaluación realizada con el lenguaje de programacion JAVA, para POO',2,'Brian Guzmán',
+        '15/02/2020',1);
+        
+insert into test
+values (2,'Evaluación Modulo Base de Datos','Evaluación para creacion de MER, Consultas BBDD',3,'Brian Guzmán',
+        '12/03/2020',1);
+
+--LLENADO DE TABLA TEST (PRUEBAS DE CONSULTA 3)
+insert into test
+values (3,'Evaluación Modulo JAVASCRIPT','Evaluación realizada con el lenguaje de programacion JAVASCRIPT',1,'Aquiles Bailo',
+        '15/02/2020',2);  
+
+insert into test
+values (4,'Evaluación Modulo EXPERIENCIA USUARIO','Evaluación realizada con el lenguaje de programacion EXPUSU',2,
+'Myriam Valenzuela','14/02/2020',3);
+
+--LLENADO TABLA ASIGNACION
+
+insert into asigprograma
+values (1,1,1);
+
+insert into asigprograma
+values (2,1,1);
+
+insert into asigprograma
+values (3,2,2);
+
+insert into asigprograma
+values (4,3,3);
+
+insert into asigprograma
+values (1,2,2);
+
+
